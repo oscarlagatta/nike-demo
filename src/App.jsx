@@ -9,9 +9,11 @@ import {
     SpecialOffer
 } from './sections';
 
+import {Nav} from './components';
+
 const App = () => (
     <main className="relative">
-        {/*Nav*/}
+        <Nav/>
         <section className="xl:padding-1 wide:padding-r padding-br">
             <Hero/>
         </section>

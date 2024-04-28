@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- <main class="p-5">
+
+  <h1 class="text-center text-lg text-green-400">Hello World</h1>
+
+  <div class="w-full h-10 bg-violet-200 border-violet-900 border-2 rounded-md my-4 p-2">
+    <p class="text-center font-mono font-extrabold">A div</p>
+  </div>
+</main> -->
+
+<!-- Layout  -->
+<!--
+
+  Arrangement and position of element in the website
+
+  Tailwind provides different utilities like
+
+  1.- Aspect Ratio
+  2.- Box Sizing
+  3.- Float
+  4.- Position
+  5.- Overflow
+  6.- Z-index
+
+  Most of the time we will use
+
+  1.- display
+  2.- position
+  3.- overflow
+
+  Position: Determines how an HTML element is position within its containing element or overall website.
+
+  There are different values:
+
+  1.- Relative: shifts from its normal spot but behaves as the element is still there.
+  2.- Absolute: which makes the elements to move independently like a puzzle piece based on a nearby parent or the whole page.
+  3.- Fixed: which means the element stays locked in place even when we scroll up and down.
+  4.- Sticky: the element acts normal, but when we scroll to a certain point sticks around like a posted note.
+
+
+  Tailwind uses the same for their classes to keep it simple,
+
+
+
+ <main class="p-5">
+
+  <h1 class="text-center text-lg text-green-400">Hello World</h1>
+
+  <div class="w-full h-10 bg-violet-200 border-violet-900 border-2 rounded-md my-4 p-2">
+    <p class="text-center font-mono font-extrabold">A div</p>
+  </div>
+
+  <div class="fixed w-10 h-10 bg-red-500 top-0">
+
+  </div>
+</main>
+
+
+  Display: Determines how the element behaves in terms of layout and visibility within the document; which means it controls how elements are displayed.
+  They are various forms of display:
+
+  1.- block
+  2.- inline
+  3.- inline-block
+  4.- none
+  5.- flex
+  6.- grid
+
+  And similar to position we can use these values directly as utilities in tailwind.
+
+
+
+
+
+
+ <main class="p-5">
+
+  <h1 class="text-center text-lg text-green-400">Hello World</h1>
+
+  <div class="w-full h-10 bg-violet-200 border-violet-900 border-2 rounded-md my-4 p-2">
+    <p class="text-center font-mono font-extrabold">A div</p>
+  </div>
+
+
+  <div class="fixed w-10 h-10 bg-red-500 top-0">
+
+  </div>
+
+  FLEX-BOX
+
+  <div class="flex justify-between">
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+  </div>
+
+
+  GRID
+
+  <div class="grid grid-cols-5 gap-2 mt-3">
+    <div class="bg-violet-500 h-12"></div>
+    <div class="bg-violet-500 h-12"></div>
+    <div class="bg-violet-500 h-12"></div>
+    <div class="bg-violet-500 h-12"></div>
+    <div class="bg-violet-500 h-12"></div>
+  </div>
+
+</main>
+
+
+Media Queries
+-------------
+
+Tailwind provides a list of breakpoints
+
+max-sm => @media not all and (min-width: 640px)
+
+max-md => @media not all and (min-width: 768px)
+
+max-lg => @media not all and (min-width: 1024px)
+
+max-xl => @media not all and (min-width: 1280px)
+
+max-2xl => @media not all and (min-width: 1536px)
+
+Tailwind uses min-width as default setting styles for specific screen widths (eg. 640px) or larger.
+
+The style max-sm will be activated for 640px and above. Then max-md for 768px and above, and so on and so forth.
+
+
+
+
+
+<main class="p-5">
+  <h1 class="text-center text-lg text-green-400">Hello World</h1>
+
+  <div class="my-4 h-10 w-full rounded-md border-2 border-violet-900 bg-violet-200 p-2">
+    <p class="text-center font-mono font-extrabold">A div</p>
+  </div>
+
+  <div class="fixed top-0 h-10 w-10 bg-red-500"></div>
+
+  <h2>FLEX-BOX</h2>
+
+  <div class="flex justify-between">
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+  </div>
+
+  <h2>GRID</h2>
+
+  <div class="mt-3 grid grid-cols-5 gap-2">
+    <div class="h-12 bg-violet-500"></div>
+    <div class="h-12 bg-violet-500"></div>
+    <div class="h-12 bg-violet-500"></div>
+    <div class="h-12 bg-violet-500"></div>
+    <div class="h-12 bg-violet-500"></div>
+  </div>
+
+  <h2 class="mt-3">Media Query</h2>
+
+  <div class="hidden md:block">
+    <p>I will appear for device resolution greater than 768px</p>
+  </div>
+  <div class="hidden max-md:block">
+    <p>I will appear for device resolution less 768px</p>
+  </div>
+</main>
+-->
+
+<main class="p-5">
+    <h1 class="text-center text-lg text-green-400">Hello World</h1>
+
+    <div class="my-4 h-10 w-full rounded-md border-2 border-violet-900 bg-violet-200 p-2">
+        <p class="text-center font-mono font-extrabold">A div</p>
+    </div>
+
+    <div class="fixed top-0 h-10 w-10 bg-red-500"></div>
+
+    <h2>FLEX-BOX</h2>
+
+    <div class="flex justify-between">
+        <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+        <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+        <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+    </div>
+
+    <h2>GRID</h2>
+
+    <div class="mt-3 grid grid-cols-5 gap-2">
+        <div class="h-12 bg-violet-500"></div>
+        <div class="h-12 bg-violet-500"></div>
+        <div class="h-12 bg-violet-500"></div>
+        <div class="h-12 bg-violet-500"></div>
+        <div class="h-12 bg-violet-500"></div>
+    </div>
+
+    <h2 class="mt-3">Media Query</h2>
+
+    <div class="hidden md:block">
+        <p>I will appear for device resolution greater than 768px</p>
+    </div>
+    <div class="hidden max-md:block">
+        <p>I will appear for device resolution less 768px</p>
+    </div>
+
+    <button class="my-2 rounded-lg bg-blue-500 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 active:bg-blue-800">Click Me</button>
+
+    <ul class="my-2 space-y-2">
+        <li class="bg-white p-2 first:bg-yellow-100">Item 1</li>
+        <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 2</li>
+        <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 3</li>
+        <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 4</li>
+        <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 5</li>
+        <li class="bg-white p-2 first:bg-yellow-100 odd:bg-blue-200 even:bg-green-200">Item 6</li>
+    </ul>
+
+    <!-- theme -->
+
+    <div class="card">
+        <h3 class="text-base font-medium tracking-tight text-slate-900">This is a text element</h3>
+        <p class="mt-2 text-sm text-slate-500">Thiis is an even longer p tag element</p>
+
+        <button id="toggleDart" class="mt-8 rounded-md bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900" onClick="document.body.classList.toggle('dark')">Toggle dark mode</button>
+    </div>
+    <p class="text-chestnut bg-stone-100 text-2xl">Chesnut color</p>
+</main>
+
+</body>
+</html>
